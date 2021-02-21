@@ -27,13 +27,13 @@ ___      .__        ____.
 
 print(logo) 
 
-user = input('یوسەرت انستات: ') 
+user = input('usare insta: ') 
 
-password = input('پاسی انستات: ') 
+password = input('pass insta: ') 
 
-target = str(input(("ئەوەی ڕیپۆرتی لێ دەدەی:"))) 
+target = str(input(("nawe aw kasay rep dakay:"))) 
 
-sle = int(input("چەن سانیە: "))
+sle = int(input("chand chrka: "))
 
 def login(): 
 
@@ -109,7 +109,7 @@ def login():
 
         done = 0 
 
-        print("داخڵ بووی") 
+        print("daxl buy") 
 
         r.headers.update({'X-CSRFToken': loginreq.cookies['csrftoken']}) 
 
@@ -137,12 +137,12 @@ def login():
 
             done += 1 
 
-            print(f"بەسەر کەوتوی سێڵف کرا  : : {done}") 
+            print(f"self kra @erh4b up : : {done}") 
 
             time.sleep(0.1) 
 
     else: 
 
-        print("داخڵ نەبووی تکایە دووبارەی کەوە!") 
+        print("daxl nabuy dubara hawl da!") 
 
 login()
